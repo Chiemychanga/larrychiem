@@ -76,9 +76,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/Larry.png" alt="" style="border-radius:50%" onload="this.width/=2;this.onload=null;" >
                     <div class="intro-text">
-                        <h1 class="name">2 Times is the charm</h1>
+                        <h1 class="name">Hi</h1>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Web Developer - Student - Weightlifter</span>
                     </div>
                 </div>
             </div>
@@ -100,10 +100,10 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
+                                <p>CDK Chatbot</p>
                             </div>
                         </div>
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
-                        <!--<img src="img/portfolio/chatbot.PNG" class="img-responsive" alt="Chatbot">-->
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -111,9 +111,10 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Migrations Dashboard</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
+                            <img src="img/portfolio/cake.png" class="img-responsive" alt="Slice of cake">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -121,6 +122,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
+                                <p>HYPED! QUACKCON PROJECT</p>
                             </div>
                         </div>
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="Circus tent">
@@ -131,6 +133,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Tri-met App</p>
                             </div>
                         </div>
                         <img src="img/portfolio/game.png" class="img-responsive" alt="Game controller">
@@ -141,6 +144,7 @@
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Scrabble in C++</p>
                             </div>
                         </div>
                         <img src="img/portfolio/safe.png" class="img-responsive" alt="Safe">
@@ -482,19 +486,49 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/work/scrabble/thumb.jpg" class="img-responsive img-centered" alt="">
+                            <p>For my scrabble program, I created the board from my board class, with a pointer to a
+                                class that was a DLL, which that had another pointer to another DLL. I designed the
+                                gameplay to prompt. For my bag class, I have an array of 27 pieces for letters ‘A’
+                                through ‘Z’, plus the ‘ ‘ blank tile.
+                                <br>To use this class efficiently, I made sure that as pieces are randomly drawn from
+                                the bag. The validity of my approach to this program is seen from my zero memory leaks,
+                                and the efficiency I have when I have the player insert x-y-coordinates to insert their
+                                word.
+
+
+                                <br>This project required object oriented programming: the row pointer (creating the
+                                board and can pass pieces into it for inserting,
+                                as well as counting th$ The major design changes I had to make was in the beginning,
+                                where I thought the board was impossible to make DLL of DLL, so Instead I implemented
+                                a “triply-linked list”.
+
+                                <br>The average efficiency of using a DLL for building
+                                it is O(1) since it’s recursively adding at the end ‘N’ amount of times based off what
+                                the user wants the size of the board to b$ Besides a DLL of DLL, I’ve heard from tutors
+                                that a multi-threaded array would have been more efficient that a DLL of DLL since we
+                                can have direct access to the x and y coordinate$ For my hand and bag, I used an array
+                                and now I understand why I should have picked a different data structure. Using an array
+                                is not useful for deleting since I had to reorganize $ If I had more time, for my hand
+                                and bag, I would just have used a DLL of DLL for the bag, and a DLL just for the hand,
+                                since I already wrote and implemented them. Deleting and reo$ For my debugger process,
+                                I used gdb to run through my row pointers, making sure my previous and next pointers
+                                were connected at the correct places, and figuring out why my x and y$ A problem that
+                                I had that I was able to fix with gdb was my draw piece function from my bag, which at
+                                the beginning was drawing the same pieces over and over again into my player’$ For the
+                                valgrind, I was able to see where my destructors were going wrong, and from this I
+                                learned that you cannot delete arrays the same as you do with your DLL of DLL.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">Myself</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">July 2016</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong><a href="http://startbootstrap.com">C++</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -519,7 +553,7 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                            <img src="img/portfolio/work/graph-bfs/thumb.jpg" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
